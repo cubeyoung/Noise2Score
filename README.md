@@ -1,7 +1,13 @@
-# Noise2Score: Tweedie’s Approach to Self-Supervised Image Denoising without Clean Images
+# Noise2Score: Tweedie’s Approach to Self-Supervised Image Denoising without Clean Images [NeurIPS2021]
 
-This repository is the official implementation of Noise2Score: Tweedie’s Approach to Self-Supervised Image Denoising without Clean Images.
-<img src="image/concept.png"  width="700" height="370">
+This repository is the official implementation of *Noise2Score: Tweedie’s Approach to Self-Supervised Image Denoising without Clean Images*
+
+<img src="image/concept.png"  width="70%" height="70%" alt="Network"></img>
+
+## Abstract
+
+
+<img src="image/concept.png"  width="70%" height="70%" alt="Network"></img>
 
 ## Requirements
 
@@ -95,8 +101,16 @@ python test_blind.py --model Poisson_blind  --scale_param 0.01 --dataroot ./test
 python test_blind.py --model Gamma_blind --parameter 100 --dataroot ./testdata/Set12 --name BSD_ours_unet_gamma_100_blind --direction BtoA  --gpu_ids '0' --epoch best --results_dir ./results/
 ```
 
-## Results
-Our model achieves the following performance on :
-<img src="image/table.PNG"  width="700" height="370">
-
+## Citation
+If you find our work interesting, please consider citing
+```
+@article{kim2021noise2score,
+  title={Noise2score: tweedie’s approach to self-supervised image denoising without clean images},
+  author={Kim, Kwanyoung and Ye, Jong Chul},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={864--874},
+  year={2021}
+}
+```
 
