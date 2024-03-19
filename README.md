@@ -15,7 +15,7 @@ noise parameter estimation with minimal complexity. The links to SURE and existi
 also explained, which clearly showed why our method is a better generalization.
 
 
-<img src="image/results_nonblind.png"  width="70%" height="70%" alt="Network"></img>
+<img src="image/results_nonblind.jpg"  width="70%" height="70%" alt="Network"></img>
 
 ## Requirements
 
