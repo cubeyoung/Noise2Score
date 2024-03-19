@@ -1,7 +1,5 @@
 # Noise2Score: Tweedie's Approach to Self-Supervised Image Denoising without Clean Images (NeurIPS 2021)
-Official Pytorch implementation for [paper](https://papers.neurips.cc/paper/2021/file/077b83af57538aa183971a2fe0971ec1-Paper.pdf) presented on NeurIPS 2021
-
-titled "_Noise2Score: Tweedie's Approach to Self-Supervised Image Denoising without Clean Images_".
+*Official Pytorch implementation for [paper](https://papers.neurips.cc/paper/2021/file/077b83af57538aa183971a2fe0971ec1-Paper.pdf) presented on NeurIPS 2021*
 
 <img src="./Network.png" width="70%" height="70%" alt="Network"></img>
 
@@ -21,6 +19,9 @@ noise parameter estimation with minimal complexity. The links to SURE and existi
 +It is okay to use lower version of CUDA with proper pytorch version. 
 
 ex) CUDA 10.2 with pytorch 1.7.0
+
+## Noise2Score Weights
+Please check out our [Model Zoo]() for all public Noise2Score checkpoints, and the instructions of how to use the weights.
 
 ## Getting started 
 1) Clone the respository
