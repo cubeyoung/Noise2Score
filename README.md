@@ -112,12 +112,13 @@ python test_blind.py --model Gamma_blind --parameter 100 --dataroot ./testdata/S
 ## Citation
 If you find our work interesting, please consider citing
 ```
-@inproceedings{kim2022noise,
-  title={Noise distribution adaptive self-supervised image denoising using tweedie distribution and score matching},
-  author={Kim, Kwanyoung and Kwon, Taesung and Ye, Jong Chul},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
-  pages={2008--2016},
-  year={2022}
+@article{kim2021noise2score,
+  title={Noise2score: tweedie’s approach to self-supervised image denoising without clean images},
+  author={Kim, Kwanyoung and Ye, Jong Chul},
+  journal={Advances in Neural Information Processing Systems},
+  volume={34},
+  pages={864--874},
+  year={2021}
 }
 ```
 
